@@ -30,3 +30,8 @@ repos:
         args: [ --fix ]
         types_or: [python, pyi, jupyter]
       - id: ruff-format
+
+  - repo: https://github.com/dyollb/check-spaces-in-paths
+    rev: v0.1.0
+    hooks:
+      - id: check-spaces-in-paths
