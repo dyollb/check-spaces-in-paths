@@ -1,0 +1,6 @@
+-   id: check-spaces-in-paths
+    name: Check for spaces in file and folder paths
+    entry: check-spaces-in-paths
+    language: python
+    types: [file]
+    description: "Prevent committing files or folders with spaces in their names."
